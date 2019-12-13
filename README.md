@@ -7,7 +7,7 @@ Diese Datenrecherche entsprang der Beobachtung, dass sich in der Saison 2018/19 
 Um an die Daten heranzukommen, werden zunächst alle Spieler, die seit 2011 in den zwei höchsten Ligen der Länder Schweiz, Österreich, Portugal, Spanien, Italien, Deutschland, Frankreich, England und Schottland gespielt haben, extrahiert. Über jeden Spieler ist auf transfermarkt.ch eine Verletzungshistorie erfasst, die wir nach Kreuzbandrissen untersuchen. Rund 1400 Risse gab es unter den gut 36000 erfassten Spielern. Auf der Transfermarkt-Hauptseite der rund 1400 Betroffenen extrahieren wir Infos wie Club, Liga und Alter zum Zeitpunkt des Risses.
 
 ## Phyton-Script
-Die Analyse wurde mit Phyton-Code vorgenommen. Das Script ist unter der obigen jpynb-Datei einsehbar.
+Die Analyse wurde mit Phyton-Code vorgenommen. Das Script ist unter der obigen jpynb-Datei einsehbar. Die Liste mit allen Spielern, die seit 2011/12 zumindest zwischenzeitlich in einer der ausgewählten Ligen Fussball gespielt haben und sich ein Kreuzband gerissen haben, sind in der obigen csv-Datei zu finden.
 
 ## Ergebnis
 Tatsächlich ist eine erhöhte Kreuzbandriss-Rate in der Super League erkennbar. In der höchsten Schweizer Liga haben sich seit der Saison 2011/12 55 Spieler das Kreuzband gerissen, pro Team im Schnitt 5,5. In den Top-Five-Ligen Europas liegt dieser Wert weit tiefer, nämlich zwischen 2,5 (Ligue 1) und 4,2 (La Liga). Was das Resultat relativiert: In der laufenden Saison (2019/20) hat sich noch kein Spieler der Super League das Kreuzband gerissen (Stand 13.12.2019). Der Effekt muss aber über einen längeren Zeitraum beobachtet werden.
@@ -15,5 +15,9 @@ Was bei der Auswertung zudem auffiel: Die Pausenzeiten nach einem Kreuzbandriss 
 
 ## Auskunftspersonen
 Sowohl von Lukas Weisskopf (Sportarzt und Kreuzband-Experte) als auch von Simon Storm (Leiter Athletik und Physiotherapie FC St.Gallen) deutet die tiefere Quoten in grossen Ligen auf bessere medizinische Betreuung in diesen Ligen hin, schlicht aufgrund der finanziellen Möglichkeiten. Die längere Wartezeit in der Super League ist für Storm keine Überraschung: Er nimmt ebenfalls wahr, dass Vereine ihren Spielern länger Zeit geben. Weisskopf ergänzt: "Jeden Monat, den man nach einem halben Jahr Pause noch länger bis zur Rückkehr wartet, verkleinert das Risiko auf einen zweiten Riss um 50 Prozent."
+
+## Probleme der Datenanalyse
+Informationen, welche Art der Spielsituation (contact/non-contact) zum Riss führten, fehlen. Zudem sind genauere Informationen zum Kreuzbandriss nicht erfasst (ist Meniskus/Knorpel beschädigt? Zusätzlich ein Aussenband?). Dies relativiert die Aussagen zu Rückkehrzeit in den Ligen zu einem gewissen Grad. Aufgrund der relativ grossen Datenlage erhalten die formulierten Tendenzen aber Gewicht.
+
 
 
