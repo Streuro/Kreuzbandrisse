@@ -5,3 +5,6 @@ Diese Datenrecherche entsprang der Beobachtung, dass in der Saison 2018/19 ungew
 
 ## Vorgehen
 Um an die Daten heranzukommen, werden zunächst alle Spieler, die seit 2011 in den zwei höchsten Ligen der Länder Schweiz, Österreich, Portugal, Spanien, Italien, Deutschland, Frankreich, England und Schottland gespielt haben, extrahiert. Über jeden Spieler ist auf transfermarkt.ch eine Verletzungshistorie erfasst, die wir nach Kreuzbandrissen untersuchen. Rund 1400 Risse gab es unter den gut 36000 erfassten Spielern. Auf der Hauptseite der rund 1400 Betroffenen extrahieren wir Infos wie Club, Liga und Alter zum Zeitpunkt des Risses.
+
+## Phyton-Script
+Die Analyse wurde im Programm Phyton vorgenommen. Das Script ist unter der obigen jscp-Datei einsehbar.
