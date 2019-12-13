@@ -7,7 +7,7 @@ Diese Datenrecherche entsprang der Beobachtung, dass sich in der Saison 2018/19 
 Um an die Daten heranzukommen, werden zunächst alle Spieler, die seit 2011 in den zwei höchsten Ligen der Länder Schweiz, Österreich, Portugal, Spanien, Italien, Deutschland, Frankreich, England und Schottland gespielt haben, extrahiert. Über jeden Spieler ist auf transfermarkt.ch eine Verletzungshistorie erfasst, die wir nach Kreuzbandrissen untersuchen. Rund 1400 Risse gab es unter den gut 36000 erfassten Spielern. Auf der Transfermarkt-Hauptseite der rund 1400 Betroffenen extrahieren wir Infos wie Club, Liga und Alter zum Zeitpunkt des Risses.
 
 ## Phyton-Script
-Die Analyse wurde im Programm Phyton vorgenommen. Das Script ist unter der obigen jpynb-Datei einsehbar.
+Die Analyse wurde mit Phyton-Code vorgenommen. Das Script ist unter der obigen jpynb-Datei einsehbar.
 
 ## Ergebnis
 Tatsächlich ist eine erhöhte Kreuzbandriss-Rate in der Super League erkennbar. In der höchsten Schweizer Liga haben sich seit der Saison 2011/12 55 Spieler das Kreuzband gerissen, pro Team im Schnitt 5,5. In den Top-Five-Ligen Europas liegt dieser Wert weit tiefer, nämlich zwischen 2,5 (Ligue 1) und 4,2 (La Liga). Was das Resultat relativiert: In der laufenden Saison (2019/20) hat sich noch kein Spieler der Super League das Kreuzband gerissen (Stand 13.12.2019). Der Effekt muss aber über einen längeren Zeitraum beobachtet werden.
